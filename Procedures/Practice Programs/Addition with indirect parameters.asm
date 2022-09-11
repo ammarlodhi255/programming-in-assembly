@@ -1,0 +1,28 @@
+.MODEL SMALL 
+.STACK 100H
+
+.CODE
+MAIN PROC
+        
+ENDP MAIN   
+    MOV AH, 1
+    INT 21H
+    
+    MOV BL, AL
+    
+    INT 21H
+    
+    CALL ADDITION
+    
+    MOV AH, 2
+    INT 21H
+    
+    MOV AH, 4CH
+    INT 21H
+ADDITION PROC
+    ADD BL, AL
+    SUB BL, 48
+    MOV DL, BL
+    RET
+ENDP ADDITION
+    END MAIN

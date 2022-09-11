@@ -1,0 +1,14 @@
+Assembly Lab Notes:
+; (loop label1) identifies that the loop ends here and also decrements the value of cx 
+; CX might contain some garbage value, and it may mix it with the specified value 
+clears CX, you can also put the value in CL which facilitates a counter
+
+Write the following code:
+1. Write a program to display the series of alphabets from Capital A TO Z
+2. Write a program to display series of alphabets in lower case from Z to A
+3. Write a program to display series of numbers from 0 to 9
+4. Write a program to display the even numbers 0, 2, 4, 6, 8
+5. Write a program to display odd numbers 1, 3, 5, 7, 9
+6. Write a program to display the following pattern
+	ABCDCBA
+	321*123

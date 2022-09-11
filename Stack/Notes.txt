@@ -1,0 +1,2 @@
+Stack pointer - SP register is incremented each time an element is pushed to the stack
+It is decremented when an element is popped from the stack, SP points to the next most recent element in the stack

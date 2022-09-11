@@ -1,0 +1,9 @@
+MOV AH, 2
+MOV DL, COL
+MOV DH, ROW
+MOV BX, 0
+INT 10H //Video Interrupt
+
+Total columns in cmd: 80
+rows: 24/25
+no. pages in cmd: 7

@@ -1,0 +1,12 @@
+Write a code in assembly to perform the following tasks:
+1. Find the miximum number out of two inputs
+2. Find the minimum
+3. Read a character from user and avoid to display in series of alphabet
+4. Read a character and output next of the given character (in case of 'z' OR 'Z' output 'a' OR 'A')
+5. Display previous of the given character (in case of of 'a' OR 'A' display 'z' OR 'Z')
+6. Prompt user for input 10 times, if user enters 'ENTER' then exit out of the loop
+
+7. Count the number of vowels
+8. Count only the alphabets in given series of input characters
+10. Display "one" if the input is '1', Display "Two" if the input is '2' and so on.
+11. Implement AND & OR operation with Conditional Jumps
